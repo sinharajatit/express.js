@@ -8,6 +8,8 @@ app.set('views', process.argv[3]);
 //view engine: the template engine to use. For example, to use the jade template engine
 app.set('view engine', 'jade');
 
+//middle-ware 
+
 app.get('/home', function(req, res){
     
     
@@ -19,4 +21,4 @@ app.listen(process.argv[2]);
 
 
 
-//console.log(process.argv[3]);
+
